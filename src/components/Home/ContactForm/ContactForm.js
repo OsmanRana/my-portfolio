@@ -44,7 +44,7 @@ const ContactForm = () => {
                     This field is required
                 </Typography>}
 
-                <Button type="submit" sx={{ color: 'white' }} variant="outlined" value="Send">Submit</Button>
+                <Button type="submit" sx={{ color: 'white', px:5 }} variant="outlined" value="Send">Submit</Button>
             </form>
         </div>
     );
