@@ -24,12 +24,12 @@ const Home = () => {
                             web developer
                         </Typography>
                         <Typography sx={{ color: 'white', fontWeight: 200, fontSize: '18px', fontFamily: 'poppins' }} variant="subtitle1" gutterBottom component="div">
-                            I am a passionate web developer committed to delivering clean code, pixel-perfect design and user-friendly experience.
+                            i am a passionate web developer committed to delivering clean code, pixel-perfect design and user-friendly experience.
                         </Typography>
-                        <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '18px', fontFamily: 'poppins', mt: 5}} variant="subtitle1" gutterBottom component="div">
-                            Are you minding a project ?
+                        <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '18px', fontFamily: 'poppins', letterSpacing: 3, mt: 5}} variant="subtitle1" gutterBottom component="div">
+                            are you minding a project?
                         </Typography>
-                        <Button variant="outlined" sx={{ color: '#ffb400', fontWeight: 700, fontSize: '18px', fontFamily: 'poppins', my: 2 , px: 10 }}>Let's Talk</Button>
+                        <Link sx={{ textDecoration: 'none' }} href="#contactMe"><Button variant="outlined" sx={{ color: '#ffb400', fontWeight: 700, fontSize: '18px', letterSpacing: 6, fontFamily: 'poppins', my: 2 , px: 10 }}>Let's Talk</Button></Link>
 
                     </Box>
                 </Grid>
@@ -52,12 +52,13 @@ const Home = () => {
                             justifyContent: 'center',
 
                         }}>
-                            <Link sx={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1AbI26CL02NCmr-JyC7HSTJS6lcdcAiYi/view?usp=sharing" target="_blank"><Button variant="contained" sx={{ bgcolor: "#ffb400" }}>Download resume</Button></Link>
+                            <Link sx={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1AbI26CL02NCmr-JyC7HSTJS6lcdcAiYi/view?usp=sharing" target="_blank"><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>Download resume</Button></Link>
 
                         </Box>
                     </Box>
                 </Grid>
             </Grid>
+            
         </Box >
 
     );
