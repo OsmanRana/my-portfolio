@@ -64,7 +64,7 @@ const Project = ({ project }) => {
                 >
                     <Box sx={style}>
                         <Button onClick={handleClose} variant="outlined"  size="small" sx={{ my: 1, transform: 'translate(260%)', color: 'error' }}>Close</Button>
-                        <img src={image} alt=" Website Snap Shot" width="100%"></img>
+                        <img src={image} alt=" Website Snap Shot" width="100%" height="100%"></img>
                     </Box>
                 </Modal>
             </div>
