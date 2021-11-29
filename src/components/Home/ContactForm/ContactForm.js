@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import { useForm } from 'react-hook-form';
 import './ContactForm.css'
 import emailjs from 'emailjs-com';
+import { Box } from '@mui/system';
 
 const ContactForm = () => {
     const form = useRef();
@@ -19,13 +20,14 @@ const ContactForm = () => {
     };
     return (
         <div>
-            <Typography id="contactMe" sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', mb: 0 }} variant="h4" component="div" gutterBottom>
-                <span style={{ fontWeight: 200, fontSize: '36px', color: '#ffb400' }}>contact_</span><br />
-            </Typography>
-            <Typography sx={{ color: 'white',  fontFamily: 'poppins', py: 1 , borderBottom: 3 }} variant="caption" display="inline" gutterBottom>
-                please let me know your requirements, i will get back to you as soon as i can ...
-            </Typography>
-            <small></small>
+            <Box sx={{borderLeft: 5, borderColor: '#ffb400', pl: 5,}}>
+                <Typography id="contactMe" sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', mb: 0 }} variant="h4" component="div" gutterBottom>
+                    <span style={{ fontWeight: 200, fontSize: '36px', color: '#ffb400' }}>contact_</span><br />
+                </Typography>
+                <Typography sx={{ color: 'white', fontFamily: 'poppins', py: 1 }} variant="caption" display="inline" gutterBottom>
+                    please let me know your requirements, i will get back to you as soon as i can ...
+                </Typography>
+            </Box>
             <form ref={form} className="contactForm" onSubmit={handleSubmit(onSubmit)}>
                 <input placeholder="Your full name please" name="name" {...register("name", { required: true })} />
                 {errors.customerName && <Typography sx={{ color: 'error.main', py: 3 }} gutterBottom component="div">
@@ -44,7 +46,7 @@ const ContactForm = () => {
                     This field is required
                 </Typography>}
 
-                <Button type="submit" sx={{ color: 'white', px:5 }} variant="outlined" value="Send">Submit</Button>
+                <Button type="submit" sx={{ color: 'white', px: 5 }} variant="outlined" value="Send">Submit</Button>
             </form>
         </div>
     );
