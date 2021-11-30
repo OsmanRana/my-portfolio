@@ -19,7 +19,7 @@ const Detail = ({ project, projectDetailId }) => {
                         my: 5
                     }} >
                         <Grid item xs={12} md={6}  >
-                            <img src={snap2} alt="Nitch website" width="100%"></img>
+                            <img src={snap1} alt="Nitch website" width="100%"></img>
                         </Grid>
                         <Grid item xs={12} md={6}>
                             
