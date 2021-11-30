@@ -3,8 +3,8 @@ import React from 'react';
 
 const Detail = ({ project, projectDetailId }) => {
     const projectIdNumber = parseInt(projectDetailId)
-    const { name, snap, snap1, snap2, snap3, snap4 } = project;
-    console.log (snap1)
+    const { name, snap1, snap2, snap3, snap4 } = project;
+    // console.log (snap1)
 
     return (
         <div>
@@ -19,7 +19,7 @@ const Detail = ({ project, projectDetailId }) => {
                         my: 5
                     }} >
                         <Grid item xs={12} md={6}  >
-                            <img src={snap} alt="Nitch website" width="100%"></img>
+                            <img src={snap1} alt="Nitch website" width="100%"></img>
                         </Grid>
                         <Grid item xs={12} md={6}>
                             

@@ -5,7 +5,7 @@
       "description": "",
       "image": "/image/nitch.png",
       "snap": "/image/nitchSnap.png",
-      "snapOne": "/image/product.png",
+      "snap1": "/image/nitch/product.png",
       "snap2": "/image/nitch/user.png",
       "snap3": "/image/nitch/login.png",
       "snap4": "/image/nitch/user.png",
