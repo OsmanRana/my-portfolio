@@ -49,10 +49,12 @@ const Home = () => {
                         <Box sx={{
                             display: 'flex',
                             flexDirection: 'row',
-                            justifyContent: 'center',
+                            justifyContent: 'space-evenly',
 
                         }}>
+                            <Link sx={{ textDecoration: 'none' }} href="#aboutMe"><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>About Me</Button></Link>
                             <Link sx={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1AbI26CL02NCmr-JyC7HSTJS6lcdcAiYi/view?usp=sharing" target="_blank"><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>Download resume</Button></Link>
+                            <Link sx={{ textDecoration: 'none' }} href="#myBlogs"><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>My Blogs</Button></Link>
 
                         </Box>
                     </Box>

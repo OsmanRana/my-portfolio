@@ -44,6 +44,7 @@ const Projects = () => {
                 <span style={{ fontWeight: 200, fontSize: '36px', color: '#ffb400' }}>my_</span><br />
                 works:
             </Typography>
+            
             <Grid sx={{ my: 5 }} container spacing={2}>
                 {
                     projects?.map(project => <Project

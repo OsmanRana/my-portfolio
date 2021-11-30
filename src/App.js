@@ -1,17 +1,21 @@
 
 import { Container } from '@mui/material';
 import './App.css';
-import ContactForm from './components/Home/ContactForm/ContactForm';
-
-import Home from './components/Home/Home/Home';
-import Projects from './components/Home/Projects/Projects';
+import HomePage from './components/Home/HomePage/HomePage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProjectDetails from './components/Home/Projects/ProjectDetails';
 
 function App() {
   return (
     <Container>
-      <Home></Home>
-      <Projects></Projects>
-      <ContactForm></ContactForm>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="projectDetail:projectDetailId" element={<ProjectDetails/>}>
+          <Route path=":projectDetailId" element={<ProjectDetails />} />
+          </Route>
+        </Routes>
+      </Router>
     </Container>
   );
 }
