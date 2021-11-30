@@ -2,7 +2,12 @@
     {
       "id": 1,
       "name": "nitch product",
-      "description": "It is a single product niche website. Users can browse different models of Canon cameras and also can place an order. A user needs to register using email and password or can log in using google mail.A logged-in user will have access to a dashboard to manage orders, make a payment and write a review.An admin will have a protected dashboard to manage all products and orders. Can make a registered user an admin and also can add a new product. To check the admin dashboard pleas use admin@admin.com and password: 123456.",
+      "description": ["It is a single product niche website. Users can browse different models of Canon cameras and also can place an order.",
+      "A user needs to register using email and password or can log in using google mail.", 
+      "A logged-in user will have access to a dashboard to manage orders, make a payment and write a review.",
+      "The review will display on the home page of the website.",
+      "An admin will have a protected dashboard to manage all products and orders. Can make a registered user an admin and also can add a new product. To check the admin dashboard pleas use admin@admin.com and password: 123456."
+      ],
       "image": "/image/nitch.png",
       "snap": "/image/nitchSnap.png",
       "snap1": "/image/nitch/product.png",
