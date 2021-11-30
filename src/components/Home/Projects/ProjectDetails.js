@@ -10,7 +10,7 @@ const ProjectDetails = () => {
 
     return (
         <div>
-            <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', borderLeft: 5, borderColor: '#ffb400', pl: 5, my: 5 }} variant="h4" component="div" gutterBottom>
+            <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', borderLeft: 5, borderColor: '#ffb400', pl: 5, my: 5, ml: -2 }} variant="h4" component="div" gutterBottom>
                 <span style={{ fontWeight: 200, fontSize: '36px', color: '#ffb400' }}>project_</span><br />
                 details:
             </Typography>

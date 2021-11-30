@@ -11,7 +11,7 @@ console.log(description)
         <div>
             {
                 project?.id === projectIdNumber && <div>
-                    <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', borderLeft: 5, borderColor: '#ffb400', pl: 5, my: 5 }} variant="h4" component="div" gutterBottom>
+                    <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', borderLeft: 5, borderColor: '#ffb400', pl: 5, my: 5, }} variant="h4" component="div" gutterBottom>
                         <span style={{ fontWeight: 200, fontSize: '36px', color: '#ffb400' }}>{name}_</span><br />
                     </Typography>
                     <Grid container spacing={2} sx={{
@@ -24,6 +24,7 @@ console.log(description)
                             </Typography>
                             {
                                 description?.map(desc=> <Description
+                                key={desc}
                                 desc={desc}
                                 ></Description>)
                             }
