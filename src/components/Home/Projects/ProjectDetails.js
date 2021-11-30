@@ -1,13 +1,23 @@
+import { Button, Grid } from '@mui/material';
 import React from 'react';
-import { useParams } from "react-router-dom";
 
-const ProjectDetails = () => {
-    const params = useParams();
-    console.log(params)
+const ProjectDetails = ({project}) => {
+    
+    console.log(project)
     return (
-        <div>
-            <h2 style={{color: 'white'}}>Invoice: {params.projectDetailId}</h2>
-        </div>
+        <Grid container spacing={2} sx={{
+            display: 'flex',
+            alignItems: 'center',
+            my: 5
+        }} >
+            <Grid item xs={12} md={6}  >
+                <Button ><img src='' alt="Nitch website" width="100%"></img></Button>
+            </Grid>
+            <Grid item xs={12} md={6}>
+                
+            </Grid>
+            
+        </Grid >
     );
 };
 

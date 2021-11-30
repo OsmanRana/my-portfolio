@@ -22,7 +22,7 @@ const style = {
 
 
 const Project = ({ project }) => {
-    const {id,name, description, image, snap, technology } = project;
+    const {id,name, link, description, image, snap, technology } = project;
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -43,6 +43,7 @@ const Project = ({ project }) => {
                         {name}_
                     </Typography>
                     <Link to={`/projectDetails/${id}`} style={{textDecoration: 'none'}}><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>Details</Button></Link>
+                    <a href={link} rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Visit Me</Button></a>
                 </Box>
             </Grid>
             <div>
@@ -58,8 +59,8 @@ const Project = ({ project }) => {
                     </Box>
                 </Modal>
             </div>
-            
         </Grid >
+        
         </>
     );
 };

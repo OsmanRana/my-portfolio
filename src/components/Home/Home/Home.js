@@ -2,6 +2,8 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Button, Grid, Link } from '@mui/material';
+import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -54,7 +56,7 @@ const Home = () => {
                         }}>
                             <Link sx={{ textDecoration: 'none' }} href="#aboutMe"><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>About Me</Button></Link>
                             <Link sx={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1AbI26CL02NCmr-JyC7HSTJS6lcdcAiYi/view?usp=sharing" target="_blank"><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>Download resume</Button></Link>
-                            <Link sx={{ textDecoration: 'none' }} href="#myBlogs"><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>My Blogs</Button></Link>
+                            <NavLink style={{ textDecoration: 'none' }} to="/myBlogs"><Button variant="outlined" sx={{ color: "white", fontWeight: 300 }}>My Blogs</Button></NavLink>
 
                         </Box>
                     </Box>

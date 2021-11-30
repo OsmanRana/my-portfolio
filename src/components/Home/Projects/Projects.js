@@ -1,5 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import React from 'react';
+import useProjects from '../../../hooks/useProjects';
 import Project from './Project';
 const projects = [
     {
@@ -8,6 +9,7 @@ const projects = [
     description: '',
     image: '/image/nitch.png',
     snap: '/image/nitchSnap.png',
+    link: 'https://twelfth-assignment.web.app/',
     technology: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'ES6', 'REACT', 'React Router', 'React Bootstrap', 'Material UI', 'Firebase Authentication', 'Firebase Deployment', 'Node Js', 'Express Js', 'MongoDB Atlas', 'Heroku Deployment', 'API']
 },
     {
@@ -16,6 +18,7 @@ const projects = [
     description: '',
     image: '/image/travel.png',
     snap: '/image/travelSnap.png',
+    link: 'https://road-to-heaven-tours.web.app/',
     technology: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'ES6', 'REACT', 'React Router', 'React Bootstrap', 'Material UI', 'Firebase Authentication', 'Firebase Deployment', 'Node Js', 'Express Js', 'MongoDB Atlas', 'Heroku Deployment', 'API']
 },
     {
@@ -24,6 +27,7 @@ const projects = [
     description: '',
     image: '/image/education.png',
     snap: '/image/educationSnap.png',
+    link: 'https://zealous-thompson-10aaac.netlify.app/home',
     technology: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'ES6', 'REACT', 'React Router', 'React Bootstrap', 'Material UI', 'Firebase Authentication', 'Firebase Deployment', 'Node Js', 'Express Js', 'MongoDB Atlas', 'Heroku Deployment', 'API']
 },
     {
@@ -32,12 +36,15 @@ const projects = [
     description: '',
     image: '/image/hospital.png',
     snap: '/image/hospitalSnap.png',
+    link: 'https://life-care-hospital-private-ltd.web.app/',
     technology: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'ES6', 'REACT', 'React Router', 'React Bootstrap', 'Material UI', 'Firebase Authentication', 'Firebase Deployment', 'Node Js', 'Express Js', 'MongoDB Atlas', 'Heroku Deployment', 'API']
 }
 ];
 
 
 const Projects = () => {
+    const [projects] = useProjects();
+    console.log(projects)
     return (
         <div>
             <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', borderLeft: 5, borderColor: '#ffb400', pl: 5, my: 5}} variant="h4"  component="div" gutterBottom>

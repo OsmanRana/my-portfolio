@@ -20,9 +20,10 @@ const ContactForm = () => {
     };
     return (
         <div>
-            <Box sx={{borderLeft: 5, borderColor: '#ffb400', pl: 5,}}>
-                <Typography id="contactMe" sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', mb: 0 }} variant="h4" component="div" gutterBottom>
+            <Box sx={{borderLeft: 5, borderColor: '#ffb400', pl: 5, mt: 5}}>
+                <Typography id="contactMe" sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', mb: 0}} variant="h4" component="div" gutterBottom>
                     <span style={{ fontWeight: 200, fontSize: '36px', color: '#ffb400' }}>contact_</span><br />
+                    me:
                 </Typography>
                 <Typography sx={{ color: 'white', fontFamily: 'poppins', py: 1 }} variant="caption" display="inline" gutterBottom>
                     please let me know your requirements, i will get back to you as soon as i can ...
