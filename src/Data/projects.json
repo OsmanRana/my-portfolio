@@ -16,6 +16,8 @@
     "snap3": "/image/nitch/login.png",
     "snap4": "/image/nitch/user.png",
     "link": "https://twelfth-assignment.web.app/",
+    "client": "https://github.com/OsmanRana/niche-website-client-side",
+    "server": "https://github.com/OsmanRana/niche-website-server-side",
     "technology": [
       "HTML5",
       "CSS3",
