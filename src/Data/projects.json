@@ -91,7 +91,7 @@
     "snap4": "/image/edu/contact.png",
     "link": "https://zealous-thompson-10aaac.netlify.app/home",
     "client": "https://github.com/OsmanRana/review-website",
-    "server": "https://github.com/OsmanRana/review-website",
+    "server": "#",
     "technology": [
       "HTML5",
       "CSS3",
@@ -122,7 +122,7 @@
     "snap4": "/image/hos/login.png",
     "link": "https://life-care-hospital-private-ltd.web.app/",
     "client": "https://github.com/OsmanRana/healthcare-related-website",
-    "server": "https://github.com/OsmanRana/healthcare-related-website",
+    "server": "#",
     "technology": [
       "HTML5",
       "CSS3",

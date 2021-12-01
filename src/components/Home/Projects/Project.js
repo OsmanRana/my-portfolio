@@ -22,11 +22,11 @@ const style = {
 
 
 const Project = ({ project }) => {
-    const {id,name, link, image, snap, technology } = project;
+    const {id,name, link, image, snap } = project;
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    console.log(technology)
+    
     return (
         <>
         <Grid container spacing={2} sx={{

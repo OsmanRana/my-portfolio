@@ -7,7 +7,7 @@ import Tech from './Tech';
 const Detail = ({ project, projectDetailId }) => {
     const projectIdNumber = parseInt(projectDetailId)
     const { link, client, server, name, snap1, snap2, snap3, snap4, description, technology } = project;
-
+console.log(server)
     return (
         <div>
             {
