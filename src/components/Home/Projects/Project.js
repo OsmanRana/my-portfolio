@@ -54,7 +54,7 @@ const Project = ({ project }) => {
                     aria-describedby="modal-modal-description"
                 >
                     <Box sx={style}>
-                        <Button onClick={handleClose} variant="outlined"  size="small" sx={{ my: 1, transform: 'translate(260%)', color: 'error' }}>Close</Button>
+                        <Button onClick={handleClose} variant="contained"  size="small" sx={{ my: 1, transform: 'translate(260%)'}}>Close</Button>
                         <img src={image} alt=" Website Snap Shot" width="100%" height="100%"></img>
                     </Box>
                 </Modal>

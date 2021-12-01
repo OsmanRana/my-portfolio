@@ -75,14 +75,18 @@
     "id": 3,
     "name": "educational",
     "description": [
-      "It is a single product niche website. Users can browse different models of Canon cameras and also can place an order.",
-      "A user needs to register using email and password or can log in using google mail.",
-      "A logged-in user will have access to a dashboard to manage orders, make a payment and write a review.",
-      "The review will display on the home page of the website.",
-      "An admin will have a protected dashboard to manage all products and orders. Can make a registered user an admin and also can add a new product. To check the admin dashboard pleas use admin@admin.com and password: 123456."
+      "It is a simple educational website where a user can check all the courses provided by the institute.",
+      "The service page consists of all the detail about each course.",
+      "The about us page lists all the teachers, and there is another page for teachers qualification details.",
+      "There is also a contact page.",
+      "The website is desktop and mobile responsive."
     ],
     "image": "/image/education.png",
     "snap": "/image/educationSnap.png",
+    "snap1": "/image/edu/home.png",
+    "snap2": "/image/edu/sevices.png",
+    "snap3": "/image/edu/teacher.png",
+    "snap4": "/image/edu/contact.png",
     "link": "https://zealous-thompson-10aaac.netlify.app/home",
     "technology": [
       "HTML5",
@@ -93,13 +97,6 @@
       "REACT",
       "React Router",
       "React Bootstrap",
-      "Material UI",
-      "Firebase Authentication",
-      "Firebase Deployment",
-      "Node Js",
-      "Express Js",
-      "MongoDB Atlas",
-      "Heroku Deployment",
       "API"
     ]
   },
@@ -107,14 +104,18 @@
     "id": 4,
     "name": "hospital website",
     "description": [
-      "It is a single product niche website. Users can browse different models of Canon cameras and also can place an order.",
-      "A user needs to register using email and password or can log in using google mail.",
-      "A logged-in user will have access to a dashboard to manage orders, make a payment and write a review.",
-      "The review will display on the home page of the website.",
-      "An admin will have a protected dashboard to manage all products and orders. Can make a registered user an admin and also can add a new product. To check the admin dashboard pleas use admin@admin.com and password: 123456."
+      "Hospital website to check the doctor's profiles and services provided by the hospital.",
+      "Users can register using email and password and can also sign in using google mail.",
+      "Users need to verify the email address provided in the registration process to use the website in the future. ",
+      "Users can check the doctors' details.",
+      "Users also can check the details of the services provided by the hospital."
     ],
     "image": "/image/hospital.png",
     "snap": "/image/hospitalSnap.png",
+    "snap1": "/image/hos/home.png",
+    "snap2": "/image/hos/doctor.png",
+    "snap3": "/image/hos/service.png",
+    "snap4": "/image/hos/login.png",
     "link": "https://life-care-hospital-private-ltd.web.app/",
     "technology": [
       "HTML5",

@@ -43,7 +43,6 @@ console.log(description)
                     </Grid >
                     <Grid container spacing={2} sx={{
                         display: 'flex',
-                        alignItems: 'center',
                         my: 5
                     }} >
                         <Grid item xs={12} md={6}  >
