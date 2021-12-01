@@ -22,7 +22,7 @@ const style = {
 
 
 const Project = ({ project }) => {
-    const {id,name, link, description, image, snap, technology } = project;
+    const {id,name, link, image, snap, technology } = project;
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -35,7 +35,7 @@ const Project = ({ project }) => {
             my: 5
         }} >
             <Grid item xs={12} md={6}  >
-                <Button onClick={handleOpen}><img src={snap} alt="Nitch website" width="100%"></img></Button>
+                <Button onClick={handleOpen}><img className="hoverEffect" src={snap} alt="Nitch website" width="100%"></img></Button>
             </Grid>
             <Grid item xs={12} md={6}>
                 <Box sx={{ml: 1, borderLeft: 2, borderColor: '#ffb400', pl: 5,}}>

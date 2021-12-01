@@ -1,6 +1,6 @@
-img:hover {
-    /* transform: scale(0.5,0.5); */
-    transform: scale(1.125, 1.25);
+.hoverEffect:hover {
+    transform: scale(1.125, 1.125);
     transition-duration: 1.5s;
     transition-timing-function: ease-out;
+    overflow: hidden;
 }
