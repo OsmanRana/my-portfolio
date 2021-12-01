@@ -26,7 +26,6 @@
       "ES6",
       "REACT",
       "React Router",
-      "React Bootstrap",
       "Material UI",
       "Firebase Authentication",
       "Firebase Deployment",
@@ -54,6 +53,8 @@
     "snap3": "/image/travel/manage.png",
     "snap4": "/image/travel/addPackage.png",
     "link": "https://road-to-heaven-tours.web.app/",
+    "client": "https://github.com/OsmanRana/tourism-or-delivery-website-client-side",
+    "server": "https://github.com/OsmanRana/tourism-or-delivery-website-server-side",
     "technology": [
       "HTML5",
       "CSS3",
@@ -63,7 +64,6 @@
       "REACT",
       "React Router",
       "React Bootstrap",
-      "Material UI",
       "Firebase Authentication",
       "Firebase Deployment",
       "Node Js",
@@ -90,6 +90,8 @@
     "snap3": "/image/edu/teacher.png",
     "snap4": "/image/edu/contact.png",
     "link": "https://zealous-thompson-10aaac.netlify.app/home",
+    "client": "https://github.com/OsmanRana/review-website",
+    "server": "#",
     "technology": [
       "HTML5",
       "CSS3",
@@ -119,6 +121,8 @@
     "snap3": "/image/hos/service.png",
     "snap4": "/image/hos/login.png",
     "link": "https://life-care-hospital-private-ltd.web.app/",
+    "client": "https://github.com/OsmanRana/healthcare-related-website",
+    "server": "#",
     "technology": [
       "HTML5",
       "CSS3",
@@ -128,13 +132,6 @@
       "REACT",
       "React Router",
       "React Bootstrap",
-      "Material UI",
-      "Firebase Authentication",
-      "Firebase Deployment",
-      "Node Js",
-      "Express Js",
-      "MongoDB Atlas",
-      "Heroku Deployment",
       "API"
     ]
   }
