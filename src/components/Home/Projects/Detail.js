@@ -7,7 +7,7 @@ import Tech from './Tech';
 const Detail = ({ project, projectDetailId }) => {
     const projectIdNumber = parseInt(projectDetailId)
     const { link, client, server, name, snap1, snap2, snap3, snap4, description, technology } = project;
-console.log(server)
+    console.log(server)
     return (
         <div>
             {
@@ -15,22 +15,22 @@ console.log(server)
                     <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', borderLeft: 5, borderColor: '#ffb400', pl: 5, my: 5, }} variant="h4" component="div" gutterBottom>
                         <span style={{ fontWeight: 200, fontSize: '36px', color: '#ffb400' }}>{name}_</span><br />
                     </Typography>
-                    <a href={link} rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Visit Me</Button></a>
-                    <a href={client} rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Client Side</Button></a>
-                    <a href={server} rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Server Side</Button></a>
-                    <Link to="/" rel="noreferrer" style={{textDecoration: 'none'}}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Home</Button></Link>
+                    <a href={link} rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Visit Me</Button></a>
+                    <a href={client} rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Client Side</Button></a>
+                    <a href={server} rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Server Side</Button></a>
+                    <Link to="/" rel="noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" sx={{ color: "white", fontWeight: 300, ml: 5 }}>Home</Button></Link>
                     <Grid container spacing={2} sx={{
                         display: 'flex',
                         my: 5
                     }} >
                         <Grid item xs={12} md={6}  >
                             <Typography sx={{ color: 'white', fontWeight: 700, fontSize: '51px', fontFamily: 'poppins', borderLeft: 5, borderColor: '#ffb400', pl: 5, my: 5 }} variant="h4" component="div" gutterBottom>
-                             description_
+                                description_
                             </Typography>
                             {
-                                description?.map(desc=> <Description
-                                key={desc}
-                                desc={desc}
+                                description?.map(desc => <Description
+                                    key={desc}
+                                    desc={desc}
                                 ></Description>)
                             }
                         </Grid>
